@@ -21,7 +21,7 @@ function randomColor() {
     );
 }
 
-funcation Ball() {
+function Ball() {
     this.color = randomColor();
     this.radius = Math.random() * 20+ 14;
     this.startradius = this.radius;
@@ -40,7 +40,7 @@ funcation Ball() {
 }
 
 var bal = [];
-for (var 1=0; 1<50; 1++) {
+for (var i=0; i<50; i++) {
     bal.push(new Ball());
 }
 
