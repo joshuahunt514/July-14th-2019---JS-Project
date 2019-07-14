@@ -10,13 +10,13 @@ c.strokeWidth=5;
 function randomColor() {
     return (
         "rgba(" +
-        Math.roung(Math.random() * 250) +
+        Math.round(Math.random() * 250) +
         "," +
-        Math.roung(Math.random() * 250) +
+        Math.round(Math.random() * 250) +
         "," +
-        Math.roung(Math.random() * 250) +
+        Math.round(Math.random() * 250) +
         "," +
-        Math.roung(Math.random() * 10) / 10 +
+        Math.round(Math.random() * 10) / 10 +
         ")"
     );
 }
