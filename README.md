@@ -1,3 +1,3 @@
 #2019july14jsproject
-I downloaded a project off Github ()
-Total copy, none of it is my own, just for practice
+Found a project online to practice
+https://codepen.io/b4rb4tron/full/wjyXNJ
