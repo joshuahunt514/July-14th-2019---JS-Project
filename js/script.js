@@ -69,7 +69,7 @@ function animate() {
     bal[i].update();
     bal[i].y += bal[i].dy;
     bal[i].x += bal[i].dx;
-    if (bal[i].y + bal[i].redius >= ty) {
+    if (bal[i].y + bal[i].radius >= ty) {
       bal[i].dy = -bal[i].dy * grav;
     } else {
       bal[i].dy += bal[i].vel;
@@ -85,7 +85,7 @@ function animate() {
       bal[i].radius < 70
     ) {
       //bal[i].x += +1;
-      ball[i].radius += 5;
+      bal[i].radius += 5;
     } else {
       if (bal[i].radius > bal[i].startradius) {
         bal[i].radius += -5;
@@ -112,4 +112,4 @@ setInterval(function() {
 
 // Try 4: Its starting to work! Bit depressing at the moment.
 
-// Try 5:
+// Try 5: I think it's good!
